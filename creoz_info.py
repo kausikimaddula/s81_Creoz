@@ -66,5 +66,5 @@ if __name__ == "__main__":
     print("\nTech Stack:")
     for section, items in get_tech_stack().items():
         print(f"\n{section}:")
-        for item in items:
+        for item in items:    
              print(f"  - {item}")
